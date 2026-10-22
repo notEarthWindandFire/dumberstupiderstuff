@@ -481,6 +481,56 @@ recipes:
     color: BRIGHT_GREY
     difficulty: 6
     alcohol: 46
+  soberer:
+    name: Burdock Root/Rat Poison/Ipecac
+    ingredients:
+    - Poisonous_Potato/3
+    - spider_eye/1
+    - brown_mushroom/2
+    cookingtime: 4
+    color: 47250B
+    difficulty: 8
+    alcohol: -100
+    lore:
+    - +++ Explosive shots
+    servercommands:
+    - brew puke %player_name%
+    effects:
+    - WEAKNESS/3-1/20-4
+    - POISON/3-2/10-2
+    - HUNGER/3/15
+  killer:
+    name: 30% Alcohol/70% Alcohol/Pure Ethanol
+    ingredients:
+    - potato/32
+    cookingtime: 8
+    distillruns: 8
+    distilltime: 120
+    color: 420EDB
+    difficulty: 10
+    alcohol: 100
+    lore:
+    - +++ Fatal if ingested
+    servercommands:
+    - effect give %player_name% instant_harming 120 0 true
+  miner_brew:
+    name: Miner's Brew
+    ingredients:
+    - glow_berries/3
+    - beetroot/5
+    - gold_nugget/1
+    cookingtime: 3
+    distillruns: 1
+    distilltime: 20
+    wood: 0
+    age: 3
+    color: YELLOW
+    difficulty: 4
+    alcohol: 12
+    effects:
+    - GLOWING/0-1/0-10
+    - NIGHT_VISION/1/15-90
+    - HASTE/0-2/15-90
 
 # More recipe ideas:
 # Dandelion Liquor

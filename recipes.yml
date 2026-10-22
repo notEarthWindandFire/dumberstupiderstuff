@@ -512,7 +512,7 @@ recipes:
     lore:
     - +++ Fatal if ingested
     servercommands:
-    - effect give %player_name% instant_harming 120 0 true
+    - +++ effect give %player_name% instant_harming 120 0 true
   miner_brew:
     name: Miner's Brew
     ingredients:

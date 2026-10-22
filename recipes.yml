@@ -111,7 +111,7 @@ recipes:
     customModelData: 556/557/557
     effects:
     - FIRE_RESISTANCE/20
-    - HEAL/1
+    - INSTANT_HEALTH/1
     - WEAKNESS/2-3/50-60
     - POISON/1-0/20-0
   wheatbeer:
@@ -215,10 +215,6 @@ recipes:
     name: Sour Apple Liquor/Apple Liquor/Calvados
     ingredients:
     - Apple/12
-    - Diamond/300
-    - Barrel/20
-    - bedrock/2
-    - egg/3
     cookingtime: 16
     distillruns: 3
     wood: 5
@@ -355,7 +351,7 @@ recipes:
     - '&aLooks poisonous'
     effects:
     - POISON/25-40
-    - HARM/2
+    - INSTANT_HARMING/2
     - NIGHT_VISION/40-60
   potato_soup:
     name: Potato soup
@@ -366,7 +362,7 @@ recipes:
     color: ORANGE
     difficulty: 1
     effects:
-    - HEAL/0-1
+    - INSTANT_HEALTH/0-1
   coffee:
     name: Stale Coffee/Coffee/Strong Coffee
     ingredients:

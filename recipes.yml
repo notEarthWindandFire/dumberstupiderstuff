@@ -531,6 +531,20 @@ recipes:
     - GLOWING/0-1/0-10
     - NIGHT_VISION/1/15-90
     - HASTE/0-2/15-90
+  glow_wine:
+    name: Glowing Wine
+    ingredients:
+    - Glow_Berries/6
+    cookingtime: 5
+    distillruns: 0
+    wood: 0
+    age: 18
+    color: F19645
+    difficulty: 4
+    alcohol: 9
+    effects:
+    - GLOWING/0-1/5-20
+    - NIGHT_VISION/1/30-60
 
 # More recipe ideas:
 # Dandelion Liquor

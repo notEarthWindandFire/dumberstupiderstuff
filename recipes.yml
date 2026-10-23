@@ -325,7 +325,7 @@ recipes:
   absinthe:
     name: Poor Absinthe/Absinthe/Strong Absinthe
     ingredients:
-    - Grass/15
+    - short_grass/15
     cookingtime: 3
     distillruns: 6
     distilltime: 80
@@ -339,7 +339,7 @@ recipes:
   gr_absinthe:
     name: Poor Absinthe/Green Absinthe/Bright Green Absinthe
     ingredients:
-    - Grass/17
+    - short_grass/17
     - Poisonous_Potato/2
     cookingtime: 5
     distillruns: 6
@@ -357,7 +357,7 @@ recipes:
     name: Potato soup
     ingredients:
     - Potato/5
-    - Grass/3
+    - short_grass/3
     cookingtime: 3
     color: ORANGE
     difficulty: 1

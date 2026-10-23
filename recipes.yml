@@ -492,7 +492,8 @@ recipes:
     difficulty: 8
     alcohol: -100
     lore:
-    - +++ Explosive shots
+    - Drinking is not recommended.
+    - +++ Explosive shots.
     servercommands:
     - brew puke %player_name%
     effects:
@@ -510,7 +511,7 @@ recipes:
     difficulty: 10
     alcohol: 100
     lore:
-    - +++ Fatal if ingested
+    - +++ Fatal if ingested.
     servercommands:
     - +++ effect give %player_name% instant_harming 120 0 true
   miner_brew:

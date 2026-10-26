@@ -147,7 +147,7 @@ recipes:
     cookingtime: 8
     distillruns: 3
     wood: 6
-    age: 0
+    age: 8
     color: '650013'
     difficulty: 2
     alcohol: 7

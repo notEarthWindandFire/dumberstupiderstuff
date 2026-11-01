@@ -559,6 +559,8 @@ recipes:
     color: 9C3707
     difficulty: 3
     alcohol: 8
+    lore:
+    - Great for the autumn season
     effects:
       - RESISTANCE/0-1/5-10
   berk_brew:

@@ -546,6 +546,40 @@ recipes:
     effects:
     - GLOWING/0-1/5-20
     - NIGHT_VISION/1/30-60
+  pumpkin_beer:
+    name: Skunky Pumpkin Beer/Pumpkin Beer/Fine Pumpkin Beer
+    ingredients:
+      - Pumpkin/6
+      - Sugar/4
+    cookingtime: 7
+    distillruns: 5
+    distilltime: 25
+    wood: 2
+    age: 3
+    color: 9C3707
+    difficulty: 3
+    alcohol: 8
+    effects:
+      - RESISTANCE/0-1/5-10
+  berk_brew:
+    name: Beserker's Brew/Beserker's Brew/Stronger Stimulant
+    ingredients:
+    - Pumpkin/8
+    - Blaze_Powder/2
+    - Iron_Nugget/1
+    - Sugar/6
+    cookingtime: 8
+    distillruns: 0
+    wood: 4
+    age: 3
+    color: FF5900
+    difficulty: 6
+    alcohol: 12
+    lore:
+    - A recipe passed down from a monkey
+    effects:
+    - RESISTANCE/0-2/10-30
+    - STRENGTH/0-2/10-30
 
 # More recipe ideas:
 # Dandelion Liquor

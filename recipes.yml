@@ -289,10 +289,10 @@ recipes:
     - +++&aGlows in the dark
     effects:
     - WEAKNESS/80
-    - CONFUSION/27
+    - NAUSEA/27
     - NIGHT_VISION/50-80
     - BLINDNESS/12-2
-    - SLOW/10-3
+    - SLOWNESS/10-3
   gin:
     name: Pale Gin/Gin/Old Tom Gin
     ingredients:
@@ -617,9 +617,9 @@ recipes:
     difficulty: 4
     alcohol: 7
     lore:
-    - WARNING: Risk of teleportation
+    - WARNING Risk of teleportation
   pirate_brew:
-    name: Brew of Mellow Waters/Brew of Open Ocean/Brew of Raging Seas
+    name: Brew o' Mellow Waters/Brew o' Open Ocean/Brew o' Raging Seas
     ingredients:
     - kelp/21
     - sugar/7

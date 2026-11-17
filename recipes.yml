@@ -351,7 +351,7 @@ recipes:
     - '&aLooks poisonous'
     effects:
     - POISON/25-40
-    - INSTANT_HARMING/2
+    - INSTANT_DAMAGE/2
     - NIGHT_VISION/40-60
   potato_soup:
     name: Potato soup
@@ -513,7 +513,7 @@ recipes:
     lore:
     - +++ Fatal if ingested.
     servercommands:
-    - +++ effect give %player_name% instant_harming 1 120 true
+    - +++ effect give %player_name% instant_damage 1 120 true
   miner_brew:
     name: Miner's Brew
     ingredients:
@@ -592,6 +592,7 @@ recipes:
     cookingtime: 8
     distillruns: 2
     distilltime: 50
+    color: WHITE
     wood: 7
     age: 8
     difficulty: 9
@@ -612,6 +613,7 @@ recipes:
     - chorus_fruit/7
     cookingtime: 6
     distillruns: 0
+    color: PURPLE
     wood: 9
     age: 16
     difficulty: 4
@@ -623,9 +625,10 @@ recipes:
     ingredients:
     - kelp/21
     - sugar/7
-    - raw_cod/1
+    - cod/1
     cookingtime: 8
     distillruns: 0
+    color: BLUE
     wood: 3
     age: 5
     difficulty: 5

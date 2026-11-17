@@ -513,7 +513,7 @@ recipes:
     lore:
     - +++ Fatal if ingested.
     servercommands:
-    - +++ effect give %player_name% instant_harming 120 0 true
+    - +++ effect give %player_name% instant_harming 1 120 true
   miner_brew:
     name: Miner's Brew
     ingredients:
@@ -549,8 +549,8 @@ recipes:
   pumpkin_beer:
     name: Skunky Pumpkin Beer/Pumpkin Beer/Fine Pumpkin Beer
     ingredients:
-      - Pumpkin/6
-      - Sugar/4
+      - pumpkin/6
+      - sugar/4
     cookingtime: 7
     distillruns: 5
     distilltime: 25
@@ -566,10 +566,10 @@ recipes:
   berk_brew:
     name: Beserker's Brew/Beserker's Brew/Stronger Stimulant
     ingredients:
-    - Pumpkin/8
-    - Blaze_Powder/2
-    - Iron_Nugget/1
-    - Sugar/6
+    - pumpkin/8
+    - blaze_powder/2
+    - iron_nugget/1
+    - sugar/6
     cookingtime: 8
     distillruns: 0
     wood: 4
@@ -582,6 +582,56 @@ recipes:
     effects:
     - RESISTANCE/0-2/10-30
     - STRENGTH/0-2/10-30
+  star_brew:
+    name: Dim Star Brew/Star Brew/Radiant Star Brew 
+    ingredients:
+    - nether_wart/14
+    - sugar/6
+    - ghast_tear/4
+    - nether_star/1
+    cookingtime: 8
+    distillruns: 2
+    distilltime: 50
+    wood: 7
+    age: 8
+    difficulty: 9
+    alcohol: 26
+    lore:
+    - + Hardly worth the ingredients
+    - +++ The pinnacle of drinkable alcohol
+    effects:
+    - SPEED/0-2/0-60
+    - HASTE/0-2/0-60
+    - RESISTANCE/0-2/0-60
+    - JUMP_BOOST/0-2/0-60
+    - STRENGTH/0-2/0-60
+    - REGENERATION/0-1/0-60
+  chorus_wine:
+    name: Chorus Wine
+    ingredients:
+    - chorus_Fruit/7
+    cookingtime: 6
+    distillruns: 0
+    wood: 9
+    age: 16
+    difficulty: 4
+    alcohol: 7
+    lore:
+    - WARNING: Risk of teleportation
+  pirate_brew:
+    name: Brew o' Mellow Waters/Brew o' Open Ocean/Brew o' Raging Seas
+    ingredients:
+    - kelp/21
+    - sugar/7
+    - raw_cod/1
+    cookingtime: 8
+    distillruns: 0
+    wood: 3
+    age: 5
+    difficulty: 5
+    alcohol: 18
+    effects:
+    - DOLPHINS_GRACE/0-1/10-90
 
 # More recipe ideas:
 # Dandelion Liquor

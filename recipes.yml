@@ -619,7 +619,7 @@ recipes:
     lore:
     - WARNING: Risk of teleportation
   pirate_brew:
-    name: Brew o' Mellow Waters/Brew o' Open Ocean/Brew o' Raging Seas
+    name: Brew of Mellow Waters/Brew of Open Ocean/Brew of Raging Seas
     ingredients:
     - kelp/21
     - sugar/7

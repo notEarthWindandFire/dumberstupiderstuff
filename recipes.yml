@@ -609,7 +609,7 @@ recipes:
   chorus_wine:
     name: Chorus Wine
     ingredients:
-    - chorus_Fruit/7
+    - chorus_fruit/7
     cookingtime: 6
     distillruns: 0
     wood: 9
